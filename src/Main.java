@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 5
-        System.out.println("Задание 5");
-        var frog   = 3.5;
-        System.out.println(frog);
-        frog = frog * 10;
-        System.out.println(frog);
-        frog = frog / 3.5;
-        System.out.println(frog);
-        frog = frog + 4;
-        System.out.println(frog);
+        // Задание 6
+        System.out.println("Задание 6");
+        var boxer1   = 78.2;
+        System.out.println(boxer1);
+        var boxer2   = 82.7;
+        System.out.println(boxer2);
+        var totalWeight = boxer1 + boxer2;
+        System.out.println(totalWeight);
+        var weightDifference = boxer2 - boxer1;
+        System.out.println(weightDifference);
     }
 }
